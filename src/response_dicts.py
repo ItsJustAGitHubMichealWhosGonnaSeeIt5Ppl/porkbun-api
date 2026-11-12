@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Ping:
+    acccount: str
     status: str
     yourIp: str
     xForwardedFor: str
